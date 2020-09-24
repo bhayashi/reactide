@@ -50,6 +50,7 @@ module.exports = {
         query: {
           "presets": [
             "@babel/preset-env",
+<<<<<<< HEAD
             "@babel/preset-react",
             
           ],
@@ -57,6 +58,16 @@ module.exports = {
         },
         
       }
+=======
+            "@babel/preset-react"
+          ]
+        },
+      },
+      {
+        test: /\.ttf$/,
+        use: ['file-loader']
+      },
+>>>>>>> master
     ]
   },
   plugins: [
