@@ -52,8 +52,12 @@ module.exports = {
             "@babel/preset-env",
             "@babel/preset-react"
           ]
-        }
-      }
+        },
+      },
+      {
+        test: /\.ttf$/,
+        use: ['file-loader']
+      },
     ]
   },
   plugins: [
